@@ -6,9 +6,9 @@ private:
 	int m_LogLevel;
 
 public:
-	const int LogLevelError = 0;
-	const int LogLevelWarning = 1;
-	const int LogLevelInfo = 2;
+	static const int LogLevelError = 0;
+	static const int LogLevelWarning = 1;
+	static const int LogLevelInfo = 2;
 
 public:
 
